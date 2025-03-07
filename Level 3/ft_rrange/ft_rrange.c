@@ -9,6 +9,8 @@ int *ft_rrange(int start, int end)
 
 	if (n < 0)
 		(n *= -1);
+	if (start < end)
+		
 	n++;
 
 	range = (int *)malloc(sizeof(int) * n);
